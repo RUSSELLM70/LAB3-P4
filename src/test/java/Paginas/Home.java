@@ -105,6 +105,28 @@ public class Home {
 		adaptador.tomarEvidencia(this.rutaEvidencia+"Validacion-filtro-Guanacaste.png");
 	}
 
+	public void filtroPuntareanas()throws IOException {
+		adaptador.findElementById(("ProvinceId")).click();
+		adaptador.findElementXpath(("//option[. = 'Puntarenas']")).click();
+		adaptador.findElementById(("CantonId")).click();
+		adaptador.findElementById(("CantonId"));
+		adaptador.findElementXpath(("//option[. = 'Coto Brus']")).click();
+		adaptador.findCssSelector((".btn-filter"));
+		adaptador.findTagName(("body"));
+		adaptador.findElementById(("DistrictId")).click();
+		adaptador.findElementXpath(("//option[. = 'San Vito']")).click();
+		adaptador.findElementById(("PropertyTypeId")).click();
+		adaptador.findElementById(("PropertyTypeId"));
+		adaptador.findElementXpath(("//option[. = 'Terrenos']")).click();
+		adaptador.findElementById(("MinPrice")).click();
+		adaptador.findElementById(("MinPrice")).sendKeys("0");
+		adaptador.findElementById(("MaxPrice")).click();
+		adaptador.findElementById(("MaxPrice")).sendKeys("4000000000");
+		adaptador.findCssSelector((".btn-filter")).click();
+		adaptador.findCssSelector((".property-item-title > strong")).click();
+		adaptador.tomarEvidencia(this.rutaEvidencia+"Validacion-filtro-Puntarenas.png");
+	}
+
 	public void cerrarDriver() {
 		adaptador.cerrarDriver();
 	}

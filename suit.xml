@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite de Pruebas">
+	<test name="Pruebas Busquedas">
+		<parameter name="navegador" value="Chrome"></parameter>
+		<parameter name="url" value="https://www.bnventadebienes.com/Home/HomeFilter"></parameter>
+		<parameter name="rutaEvidencia" value=".\\Evidencia\\"></parameter>
+		
+		<classes>
+			<class name="CasosDePrueba.Busquedas">
+				<methods>
+					<include name="TestCpSanJose"></include>
+					<include name="TestCpAlajuela"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

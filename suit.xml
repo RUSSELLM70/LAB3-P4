@@ -14,6 +14,8 @@
 					<include name="TestCpAlajuela"></include>
 					<include name="TestCpCartago"></include>
 					<include name="TestCpGuanacaste"></include>
+					<include name="TestCpPuntarenas"></include>
+
 
 
 				</methods>

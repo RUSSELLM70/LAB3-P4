@@ -41,7 +41,7 @@ public class Busquedas {
 	}
 	@Test
 	public void TestCpGuanacaste() throws IOException {
-		home.filtroSanjose();
+		home.filtroGuanacaste();
 	}
 	@Test
 	public void TestCpPuntarenas() throws IOException {
@@ -51,10 +51,7 @@ public class Busquedas {
 	public void TestCpLimon() throws IOException {
 		home.filtroSanjose();
 	}
-	@Test
-	public void TestCpHeredia() throws IOException {
-		home.filtroSanjose();
-	}
+
 	@AfterMethod
 	public void afterTest() {
 

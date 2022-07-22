@@ -37,7 +37,7 @@ public class Busquedas {
 	}
 	@Test
 	public void TestCpCartago() throws IOException {
-		home.filtroSanjose();
+		home.filtroCartago();
 	}
 	@Test
 	public void TestCpGuanacaste() throws IOException {

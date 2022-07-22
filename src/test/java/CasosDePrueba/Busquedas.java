@@ -49,7 +49,7 @@ public class Busquedas {
 	}
 	@Test
 	public void TestCpLimon() throws IOException {
-		home.filtroSanjose();
+		home.filtroLimon();
 	}
 
 	@AfterMethod

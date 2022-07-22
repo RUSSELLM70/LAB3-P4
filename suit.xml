@@ -13,6 +13,8 @@
 					<include name="TestCpSanJose"></include>
 					<include name="TestCpAlajuela"></include>
 					<include name="TestCpCartago"></include>
+					<include name="TestCpGuanacaste"></include>
+
 
 				</methods>
 			</class>
